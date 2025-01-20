@@ -1,0 +1,119 @@
+.btn-custom {
+	background-color: #198754;
+	color: white;
+	width: 120px;
+}
+
+.btn-custom:hover {
+	border: 1px solid #198754;
+	background-color: white;
+}
+
+.navbar-buttons .btn {
+	width: 135px;
+}
+
+.navbar-buttons .btn:hover {
+	border: 1px solid white;
+	background-color: #198754;
+	color: white;
+}
+
+.navbar-nav .nav-link {
+	color: white;
+	transition: all 0.3s ease-in-out;
+	font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+	text-decoration: underline;
+	color: white;
+}
+
+.free-books {
+	background-color: #eb2f2f;
+	margin: 0;
+	padding-top: 10px;
+	color: white;
+	border: 2px dotted yellow;
+}
+
+.sticky-navbar {
+	position: sticky;
+	top: 0;
+	z-index: 2000;
+}
+
+.search {
+	background-color: white;
+	padding: 10px 0;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search h5{
+	padding-left: 220px;
+}
+
+.free-books h6, .click {
+	text-align: center;
+	color: white;
+	font-style: italic;
+	text-decoration: none;
+	font-weight: 500;
+	animation: blink 1s linear infinite;
+}
+
+.click:hover {
+	text-decoration: underline;
+	color: white;
+	cursor: pointer;
+}
+
+.sidebar {
+	margin: 0;
+	padding: 0;
+	width: 220px;
+	background-color: #198754;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+	z-index: 1000;
+}
+
+.sidebar a {
+	display: block;
+	color: white;
+	padding: 16px;
+	text-decoration: none;
+	font-size: 16px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+}
+
+.sidebar a:hover:not(.active) {
+	background-color: white;
+	color: black;
+}
+
+
+
+@media screen and (max-width: 700px) {
+	.sidebar {
+		width: 100%;
+		height: auto;
+		position: relative;
+	}
+	.sidebar a {
+		float: left;
+	}
+	div.content {
+		margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.sidebar a {
+		text-align: center;
+		float: none;
+	}
+}

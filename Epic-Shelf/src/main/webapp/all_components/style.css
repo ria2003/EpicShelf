@@ -1,0 +1,120 @@
+.btn-custom{
+	background-color: #198754;
+	color: white;
+	width: 120px;
+}
+
+.btn-custom2{
+	background-color: white;
+	color: black;
+	margin:0px;	
+	padding:0;
+}
+
+.cart{
+	padding:0;
+}
+
+.cart:hover{
+	transform: scale(1.09);
+}
+
+.btn-custom2:hover{
+	 transform: scale(1.09);
+}
+
+.btn-custom:hover{
+	border: 1px solid #198754;
+	background-color: white; 
+}
+
+ .navbar-buttons .btn {
+    width: 135px;
+  }
+  
+.navbar-buttons .btn:hover{
+	border: 1px solid white;
+	background-color: #198754; 
+	color: white;
+}
+
+ .navbar-nav .nav-link {
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: white;
+    transform: scale(1.09);
+  }
+  
+.free-books{
+	background-color: #eb2f2f;
+	margin: 0;
+	color: white;
+	border: 2px dotted yellow;	
+}
+
+.sticky-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  overflow-x:hidden;
+  background-color: white;
+}
+
+
+/* Profile dropdown container */
+.dropdown {
+    position: static !important;
+    width:200px;
+}
+
+/* Dropdown menu positioning */.dropdown-menu {
+    position: fixed !important;
+    width: 200px !important;
+    z-index: 9999 !important; 
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    border-radius: 4px;
+}
+
+/* Container for the profile section */
+.col-md-3.d-flex.align-items-center.justify-content-end {
+    position: relative;
+    z-index: 1500;
+}
+
+
+.search {
+  background-color: white; 
+  padding: 12px 18px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+@keyframes blink {
+  0%, 100% {
+    color: white;
+    transform: scale(1.05);
+  }
+  50% {
+    color: yellow;
+    transform: scale(1.12);
+  }
+}
+
+.free-books h6, .click{
+	text-align:center;
+	color: white;
+	font-style: italic;
+	text-decoration:none;
+	font-weight: 500;
+	animation: blink 1.5s ease-in-out infinite;
+}
+
+.click:hover{
+	text-decoration: underline;
+	color: white;
+	cursor: pointer;
+}
